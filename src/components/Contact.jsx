@@ -1,15 +1,29 @@
-import React from "react";
-
 function Contact() {
   return (
     <div className="Contact">
       <h2>Contact Us</h2>
       <p>If you have any questions, feel free to reach out!</p>
-      <form>
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
+      <form className="form-contact">
+        <input
+          className="input-Contact"
+          type="text"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          className="input-Contact"
+          type="email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          className="input-Contact"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button className="button-regular" type="submit">
+          Send Message
+        </button>
       </form>
     </div>
   );
