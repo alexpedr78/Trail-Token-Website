@@ -29,6 +29,7 @@ function App() {
 
         <footer>
           <p className="mentions">© 2025 Tap to Visit. All rights reserved.</p>
+          <a href="/legal-mentions">Legal Mentions</a>
         </footer>
       </div>
     </Router>
