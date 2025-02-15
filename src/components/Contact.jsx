@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div className="Contact">
       <h2>Contact Us</h2>
-      <p>If you have any questions, feel free to reach out!</p>
+      <p>Want to partner?, feel free to reach out!</p>
       <form className="form-contact">
         <input
           className="input-Contact"
