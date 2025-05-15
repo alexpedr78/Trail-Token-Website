@@ -17,7 +17,7 @@ function Home() {
             complete challenges, and earn tokens while discovering the world
             around you.
           </p>
-          <button className="button-regular" onClick={document}>
+          <button className="button-regular" onClick={document()}>
             learn about Tap to visit
           </button>
         </div>

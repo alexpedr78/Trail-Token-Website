@@ -3,10 +3,11 @@ import {
   Route,
   Routes,
   useLocation,
+  Link,
 } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
-import Docs from "./components/Docs";
+import Docs from "./components/Docs.jsx";
 
 function Header() {
   const location = useLocation();
@@ -17,10 +18,10 @@ function Header() {
       <nav>
         <ul className="list-Header">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/docs">Documentation</a>
+            <Link to="/docs">Documentation</Link>
           </li>
         </ul>
       </nav>
